@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ON THE DEMAND OF GIRI</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <div class="form-box">
+        <h1>LOGIN WITH THE PASS GIVEN BY SHUBH</h1>
+        <div class="input-box">
+            <input type="email" placeholder="Email ID" id="username" required>
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Password" id="password">
+        </div>
+        <button type="button" class="login-btn" onclick="func()">LOGIN</button> 
+    </div>
+    <script>
+        function func(){
+            var password = document.getElementById("password").value;
+            if (password == 'namaste'){
+                window.location.assign("today.htm");
+                alert("succesfull than me");
+            }
+            else{
+                alert("wrong entry get pass and email from shubh");
+            }
+        }
+    </script>
+    </body>
+</html>
